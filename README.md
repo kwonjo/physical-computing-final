@@ -57,6 +57,7 @@ There were many risks in providing personal information to other entities. The p
 3. When the red apple button is pressed, the page is changed. 
 4. When the green pepper button is used, the yellow LED lights up and the page is changed. 
 5. When the potentiometer is used to get the sun down, the page is changed with many images of Pikachu eating apples (p5.js). 
+![story](images/pikastory.jpg)
 
 #### Hardware Wiring Diagram
 
@@ -248,7 +249,7 @@ function draw() {
 ```
 
 ### Design / Form
-1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed. The button on Pikachu was chosen red and painted with a green leaf so that it looks like an apple. 
+1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed. Pikachu was painted 6 times so that the blue surface would not appear and black ears were painted. The face was not drawn because projections would be made. A hole was made on the top of the head of the Pikachu so that the yellow LED will be placed on the head. The button on Pikachu was chosen red and painted with a green leaf so that it looks like an apple. 
 2. The green button with the pepper on the top was printed as an oval shape and painted as green to look like a pepper for the part of the story for "Energy Go."
 
 ![pikachu](images/pika4.jpg)
