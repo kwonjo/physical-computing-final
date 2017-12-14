@@ -10,6 +10,9 @@ This project's objective is to highlight Pokemon Go's data privacy issue. In ord
 
 ### Detailed Project Description
 
+[Project Demonstration](https://www.youtube.com/watch?v=x2A9smFMEuY&feature=youtu.be)
+->The size of the screen is different from my laptop from Yuchen's. As a result, the whole content of text is not shown in this video. 
+
 “Data Go, Energy Go” project is a story telling stage for people to learn about Pokemon Go’s privacy data flow and ecology’s energy flow. It allows people to be aware of their information used in Pokemon Go with 5 steps. The data and energy flow is self-explanatory in the tables with the 5 steps. The following images show the 5 steps: 
 
 ![final index](images/final_index.GIF)
