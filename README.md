@@ -15,12 +15,14 @@ This project's objective is to highlight Pokemon Go's data privacy issue. In ord
 ### Technical Description
 
 *What are the hardware components?
+
 -Sparkfun 
 1. Potentiometer
 2. Infrared Sensor
 3. 1 yellow LED, 3 red LEDs
 4. 2 buttons
 5. Sevor motor
+
 -3D Prints
 1. Pikachu
 2. Green Pepper
@@ -29,14 +31,14 @@ This project's objective is to highlight Pokemon Go's data privacy issue. In ord
 *What are the software components? 
 1. Particle
 2. Javascript
-3. HTML
+3. p5.js
 
 *How do they interact with each other?
-1. When the potentiometer is used, the servor motor moves and the page is changed.
+1. When the potentiometer is used, the servor motor moves and the page is changed (javascript).
 2. When sevor motor moves and makes the sun move, the sun is detected by the infrared sensor which lights up the 3 red LEDs. The page also changes with the change in the servor motor. 
 3. When the red apple button is pressed, the page is changed. 
 4. When the green pepper button is used, the yellow LED lights up and the page is changed. 
-5. When the potentiometer is used to get the sun down, the page is changed with many images of Pikachy eating apples. 
+5. When the potentiometer is used to get the sun down, the page is changed with many images of Pikachu eating apples (p5.js). 
 
 #### Hardware Wiring Diagram
 
