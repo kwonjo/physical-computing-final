@@ -1,12 +1,10 @@
 # Final Project - Physical Computing and the Internet of Things
 
-This is a template for your final project documentation.  Please replace <content like this> with your own.  For help with the syntax of Github markdown, visit: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+*Name: Jo (Joungwon) Kwon
 
-*Name:*  <Your Name>  
+*Date: December 13, 2017
 
-*Date:* <Date>
-
-## Project:  < Name of your Project / Device Goes here >
+## Project:  Data Go Energy Go
 
 < 2 - 3 sentence brief description / abstract of your project>
 
