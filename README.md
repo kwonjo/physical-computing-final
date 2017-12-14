@@ -215,12 +215,14 @@ Source: [Pikachu Model] https://www.thingiverse.com/thing:670032
 In order to show Pikachu's data was given to many entities, I used p5.js to visualize Pikachu's love for apples.
 
 ![final index](images/final_index.gif)
-![final2](images/final_2.gif)
-![final3](images/final_3.gif)
-![final4](images/final_4.gif)
-![final5](images/final_5.gif)
-![final6](images/final_6.gif)
+![final2](images/final_2.GIF)
+![final3](images/final_3.GIF)
+![final4](images/final_4.GIF)
+![final5](images/final_5.GIF)
+![final6](images/final_6.GIF)
 
 ### Evaluation / Reflection
 
-< What is your own evaluation of your project?   What did you learn through this project?  What would you do differently in the future? >
+The goals for the initial idea of this project to enable people to acknowlegdge the fact about Pokemon Go's use of personal data was accomplished. Although instructions are given by Pikachu with the screen, the intuitive use for the potentiometer or buttons may not be clear. People wanted to turn the potentiometer or push the button not in order. The sequential use of these objects should be more intuitive. 
+I learned how to modify and create 3D models. Printing the exact 3D model was a challenge. I would like to learn more about creating precise measurements. I also learned how to use javascript and html. I did not know how to create a website with javascript and html prior to this class. Learning css will be my future goal. In the part for the particle, I learned how to use the Sharp Infrared sensor and how to create function to change the pages of the website after an input is made by a user. 
+If I had more time for the project, I would like to use a larger screen. With a larger screen, text would be easier to read. The idea of this stage with two stories intertwined came from science museums. Science museums have multiple larger screens that allow people to interact and learn new information. Having a larger scale with a longer sequence would be my goal for the future. In addition, spending more time to sharpen the physical appearance of the stage and the interface of the text would make the project better.
