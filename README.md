@@ -65,7 +65,7 @@ void setup(){
 
 #### Code
 
-< Explain your code.  You might include code snippets, either `inline` or
+1. Define values (I worked on infrared sensor, the two buttons for changing the pages, and HTML for changing the pages)
 ```c++
 // Servo motor(Sun comes up)
 Servo myservo;  // create servo object to control a servo
@@ -83,14 +83,13 @@ int buttonPin2 = D0;//pepper button
 // HTML(On Going)
 int page = 1; //starts with 1.html
 ```
-
+2. Setup the functions 
 ```c++
 void setup(){
     Serial.begin(9600);
 // HTML
     Particle.variable("page", page);
-// Servo motor  
-    myservo.attach(D2);  // attaches the servo on D2 to the servo object
+
 // InfraIR
    for(int i=4; i<7; i++){
         pinMode(i, OUTPUT); //D4, D5, D6
@@ -99,12 +98,12 @@ void setup(){
     pinMode(buttonPin1, INPUT_PULLUP);
 
 // ButtonLED(Thunder bolt)
-  pinMode(buttonPin2, INPUT_PULLUP); 
-  pinMode(ledPin, OUTPUT); 
-  pinMode(potpin, INPUT);
+    pinMode(buttonPin2, INPUT_PULLUP); 
+    pinMode(ledPin, OUTPUT); 
+    pinMode(potpin, INPUT);
 }
 ```
-
+3. How the function works?
 ```c++
 void loop()
 {
@@ -173,6 +172,8 @@ void loop()
 }
 ```
 [my_code.ino](code/my_code.ino)
+
+4. Javascript and p5js codes
 
 
 ### Design / Form
