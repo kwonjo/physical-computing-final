@@ -223,8 +223,7 @@ void loop()
 		<div id="sketch"></div>
 		<h1>Oh no...Everyone seems to know that I love apples. Why am I getting emails about Apple's products? 
 		<img src="applepic.png" alt="Apple Logo" width="30" height="30">
-		<br>
-		<br>
+		<br><br>
 		MAKE A CHOICE TODAY!<br>
 		To remove your personal information, log into 
 		<a href="http://support.pokemon.com">support.pokemon.com</a> and submit a customer service request, or contact The Pokemon Company International, Inc.<br>
