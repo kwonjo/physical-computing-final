@@ -190,7 +190,7 @@ void loop()
         var newPage = 0; 
 
         function check4pageTurn() {
-            var requestURL = "https://api.particle.io/v1/devices/" +deviceID + "/" + var2get + "/?access_token=" + accessToken;
+            var requestURL = "https://api.particle.io/v1/devices/" + deviceID + "/" + var2get + "/?access_token=" + accessToken;
             $.getJSON(requestURL, function(json) {
                 newPage = json.result;
                 if (newPage != lastPage){
@@ -205,9 +205,6 @@ void loop()
             self.frames['bottom'].location.href = page + '.html';
         } 
         setInterval(check4pageTurn, 500);
-    </script>
-	</body>
-</html>
 ```
 
 ```javascript
