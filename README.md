@@ -221,7 +221,7 @@ void loop()
 	<body bgcolor="#03A9F4">
 		<font face="Verdana" color="#33333">
 		<div id="sketch"></div>
-		<h1>Oh no...Everyone seems to know that I love apples. Why am I getting emails about Apple's products?
+		<h1>Oh no...Everyone seems to know that I love apples. Why am I getting emails about Apple's products? 
 		<img src="applepic.png" alt="Apple Logo" width="30" height="30">
 		<br>
 		<br>
