@@ -65,7 +65,7 @@ void setup(){
 
 #### Code
 
-1. Define values (I worked on infrared sensor, the two buttons for changing the pages, and HTML for changing the pages)
+1. Define values (I worked on infrared sensor, the two buttons for changing the pages, and javascript for changing the pages)
 ```c++
 // Servo motor(Sun comes up)
 Servo myservo;  // create servo object to control a servo
@@ -175,7 +175,59 @@ void loop()
 
 4. Javascript and p5js codes
 ```javascript
-<script>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+		<title>Final Project 2017</title>
+		<script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+        </script>
+        <style>
+        body {
+            background-color: white;
+        }
+        </style>
+	</head>
+	<body>
+	<font face="Verdana" color="666666" size="14">
+		Data Go Energy Go<br>
+        </font>
+		<font face="Verdana" color="000000">
+		<h2>
+        Where Does Data and Energy go?<br>
+        The goal to this project is to find where our data from Pokemon Go goes and how energy flows in the ecosystem as Pikachu spends a day.
+		<br>
+        <br>
+		<a href="1.html" target="bottom">START THE DAY OVER</a></h2></font>
+		<iframe width="100%" height= "95%" src="1.html" name="bottom"></iframe> 
+	   <script type="text/javascript">
+        var deviceID    = "430053001151353338363333";
+        var accessToken = "9fe41d708a5453d5b7edbd576398dd6afaf9ef4f";
+        var var2get = "page";
+        var lastPage = 0; // set both to zero for starting
+        var newPage = 0; 
+
+        function check4pageTurn() {
+            var requestURL = "https://api.particle.io/v1/devices/" +deviceID + "/" + var2get + "/?access_token=" + accessToken;
+            $.getJSON(requestURL, function(json) {
+                newPage = json.result;
+                if (newPage != lastPage){
+                    swapFrame(newPage);
+                }
+            });
+            lastPage = newPage;
+        }
+
+        function swapFrame(page) {
+            console.log("Changed page to " + page);
+            self.frames['bottom'].location.href = page + '.html';
+        } 
+        setInterval(check4pageTurn, 500);
+    </script>
+	</body>
+</html>
 ```
 
 ### Design / Form
