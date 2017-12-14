@@ -25,7 +25,7 @@ int ledPin = D1;
 int buttonPin2 = D0;//pepper button
 
 // HTML(On Going)
-int page = 1; //starts with 1.html
+int page = 1; //starts with 1.html and changes over reaction
 
 void setup(){
     Serial.begin(9600);
@@ -94,7 +94,7 @@ void loop()
         page=4; //html
     }
     
-    //ButtonLED (thunder)
+    //ButtonLED (thunderblot attack)
     int buttonState2 = digitalRead(buttonPin2);
     if(buttonState2 == LOW)
     {
