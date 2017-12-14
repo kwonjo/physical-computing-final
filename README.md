@@ -10,7 +10,22 @@ This project's objective is to highlight Pokemon Go's data privacy issue. In ord
 
 ### Detailed Project Description
 
-< Explain the "what" of your project:   What is it?   What does it do?   Explain the "why" of your project:  What problem is it responding to?  What issue is it engaging?   
+“Data Go, Energy Go” project is a story telling stage for people to learn about Pokemon Go’s privacy data flow and ecology’s energy flow. It allows people to be aware of their information used in Pokemon Go with 5 steps. The data and energy flow is self-explanatory in the tables with the 5 steps. The following images show the 5 steps: 
+
+![final index](images/final_index.GIF)
+![final2](images/final_2.GIF)
+![final3](images/final_3.GIF)
+![final4](images/final_4.GIF)
+![final5](images/final_5.GIF)
+![final6](images/final_6.GIF)
+
+“Data Go, Energy Go” project is a story telling stage for people to learn about Pokemon Go’s privacy data flow and ecology’s energy flow. It allows people to be aware of their information used in Pokemon Go with 5 steps. The data and energy flow is self-explanatory in the tables with the 5 steps. 
+The following images show the 5 steps: 
+The last step includes a link to choose to delete the account. It may seem extreme but the only choice to avoid personal information to be given to third entities seem to be deleting the account or sending an email to Niantic. However, the response to Niantic would be a suggestion to delete the account. It is clearly stated in Niantic’s webpage about this procedure. 
+
+Last year, Pokemon Go was popular among many people in different countries and ages. The game made people to walk around and catch pokemons in various places. People stated that Pokemon Go had many pros such as making people exercise and meet new people. Even though privacy issues were raised, people did not take it seriously and continued their journey to catch pokemons. 
+
+There were many risks in providing personal information to other entities. The personal information was not just given to Niantic and Nintendo (Pokemon companies). Niantic stated that it gave the information to companies that help them with its service such as Google Maps Pin, Google Play, and Apple. In addition, Niantic gave the information to third party service providers such as Adobe Analytics (Omniture) and Typekit by Adobe. These are only a few examples of third party services stated in the webpage. It also stated that the company gave information to businesses that users may like according to users’ preferences. There were speculations in Korea that pokemon stops in the game were usually near companies that had connections to Niantic. John Hanke, the founder of Niantic, has another company that is financially supported by the CIA’s venture capital arm. This fact may hint that CIA may have some connection to Pokemon Go. Users are not aware of this and they do not take to read all this information. In order to alert the users of this fact, this project is created. The only solution for now is to delete the account and stop using Niantic’s service. The issue about privacy should be brought up and other solutions should be made. 
 
 ### Technical Description
 
@@ -235,12 +250,6 @@ Source: [Pikachu Model] https://www.thingiverse.com/thing:670032
 4. The descriptions for the story was necessary so the text is in a large font to be visible. The story required a user to engage with Pikachu's activities in his ecosystem so instructions were given on the screen. The background color is gradually changed from light blue to darker blue to show the chronological change in the story. 
 In order to show Pikachu's data was given to many entities, I used p5.js to visualize Pikachu's love for apples.
 
-![final index](images/final_index.gif)
-![final2](images/final_2.GIF)
-![final3](images/final_3.GIF)
-![final4](images/final_4.GIF)
-![final5](images/final_5.GIF)
-![final6](images/final_6.GIF)
 
 ### Evaluation / Reflection
 
