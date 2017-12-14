@@ -6,7 +6,7 @@
 
 ## Project:  Data Go Energy Go
 
-< 2 - 3 sentence brief description / abstract of your project>
+This project's objective is to highlight Pokemon Go's data probel
 
 ### Detailed Project Description
 
@@ -30,30 +30,7 @@ Description
 4 Red LEDs are connected to D4, D5, D6
 5. Button pin is connected to D7
 6. Button pin2 is connected to D0
-
-
-
-// HTML(On Going)
-int page = 1; //starts with 1.html
-
-void setup(){
-    Serial.begin(9600);
-// HTML
-    Particle.variable("page", page);
-// Servo motor  
-    myservo.attach(D2);  // attaches the servo on D2 to the servo object
-// InfraIR
-   for(int i=4; i<7; i++){
-        pinMode(i, OUTPUT); //D4, D5, D6
-    }
-// ButtonLED(Pikachu eats Apple)
-    pinMode(buttonPin1, INPUT_PULLUP);
-
-// ButtonLED(Thunder bolt)
-  pinMode(buttonPin2, INPUT_PULLUP); 
-  pinMode(ledPin, OUTPUT); 
-  pinMode(potpin, INPUT);
-}
+7. Servor motor connected to D2
 
 #### Code
 
@@ -167,6 +144,7 @@ void loop()
 
 4. Javascript and p5js codes
 In order to show Pikachu's data is given to many entities, I used p5js to visualize Pikachu's love for apples.
+
 ```javascript
 <html>
 	<head>
@@ -223,7 +201,7 @@ In order to show Pikachu's data is given to many entities, I used p5js to visual
 </html>
 ```
 
-'''javascript
+```javascript
 <html>
 	<head>
 		<title>Step 5</title>
@@ -245,7 +223,7 @@ In order to show Pikachu's data is given to many entities, I used p5js to visual
 		</font>
 	</body>
 </html>
-'''
+```
 
 ### Design / Form
 
@@ -254,6 +232,8 @@ In order to show Pikachu's data is given to many entities, I used p5js to visual
 ![pikachu](images/pika4.jpg)
 ![stage](images/pika5.jpg)
 [Pikachu Model] https://www.thingiverse.com/thing:670032
+
+![tree](images/treemodel.png)
 ![tree](images/tree.jpg)
 The tree was designed in Fusion and modgepodged with brown paper. Cotton was added to hide the red LED lights and to look like a tree.
 
