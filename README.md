@@ -70,7 +70,7 @@ void setup(){
 //Multiline
 bool photon_fun = TRUE;
 ```
-You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)  or to the Shared Revision in your Particle IDE. >
+[my_code.ino](code/my_code.ino)
 
 
 ### Design / Form
