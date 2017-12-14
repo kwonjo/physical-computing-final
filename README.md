@@ -21,8 +21,47 @@
 
 #### Hardware Wiring Diagram
 
-![Wiring Diagram](images/WiringDiagram.png)
-< Insert Picture and explanation of Your Wiring Diagram here >
+![Wiring Diagram](images/finalwiredredboard_pikachu.png)
+// Servo motor(Sun comes up)
+Servo myservo;  // create servo object to control a servo
+int potpin = A4;  // A4 analog pin used to connect the potentiometer
+int val;    // variable to read the value from the analog pin
+int mappedVal; // mapped value for servo
+
+// InfraIR(Sun to Apple)
+int sensorPin = A0; //Anologue
+SharpIR SharpIR(ir, model);
+float reading;
+int dist_cm;
+
+// ButtonLED(Pikachu eats Apple)
+int buttonPin1 = D7;
+
+// ButtonLED(Thunder bolt)
+int ledPin = D1;
+int buttonPin2 = D0;//pepper button
+
+// HTML(On Going)
+int page = 1; //starts with 1.html
+
+void setup(){
+    Serial.begin(9600);
+// HTML
+    Particle.variable("page", page);
+// Servo motor  
+    myservo.attach(D2);  // attaches the servo on D2 to the servo object
+// InfraIR
+   for(int i=4; i<7; i++){
+        pinMode(i, OUTPUT); //D4, D5, D6
+    }
+// ButtonLED(Pikachu eats Apple)
+    pinMode(buttonPin1, INPUT_PULLUP);
+
+// ButtonLED(Thunder bolt)
+  pinMode(buttonPin2, INPUT_PULLUP); 
+  pinMode(ledPin, OUTPUT); 
+  pinMode(potpin, INPUT);
+}
 
 #### Code
 
