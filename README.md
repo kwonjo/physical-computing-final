@@ -185,7 +185,7 @@ void loop()
 	<body bgcolor="#03A9F4">
 		<font face="Verdana" color="#33333">
 		<div id="sketch"></div>
-		<h1>Oh no...Everyone seems to know that I love apples. Why am I getting emails about Apple's products? 
+		<h1>Oh no...Everyone seems to know that I love apples. Why am I getting emails about Apple's products?
 		<img src="applepic.png" alt="Apple Logo" width="30" height="30">
 		<br>
 		<br>
@@ -201,22 +201,25 @@ void loop()
 ### Design / Form
 1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed.
 2. The green button with the pepper on the top was printed as an oval shape and painted as green to look like a pepper for the part of the story for "Energy Go."
+
 ![pikachu](images/pika4.jpg)
 ![stage](images/pika5.jpg)
 Source: [Pikachu Model] https://www.thingiverse.com/thing:670032
 
 3. The tree was designed in Fusion and modgepodged with brown paper. Cotton was added to hide the red LED lights and to look like a tree.
+
 ![tree](images/treemodel.png)
 ![tree](images/tree.jpg)
 
 4. The descriptions for the story was necessary so the text is in a large font to be visible. The story required a user to engage with Pikachu's activities in his ecosystem so instructions were given on the screen. The background color is gradually changed from light blue to darker blue to show the chronological change in the story. 
 In order to show Pikachu's data was given to many entities, I used p5.js to visualize Pikachu's love for apples.
+
 ![final index](images/final_index.gif)
-![final2](images/final2.gif)
-![final3](images/final3.gif)
-![final4](images/final4.gif)
-![final5](images/final5.gif)
-![final6](images/final6.gif)
+![final2](images/final_2.gif)
+![final3](images/final_3.gif)
+![final4](images/final_4.gif)
+![final5](images/final_5.gif)
+![final6](images/final_6.gif)
 
 ### Evaluation / Reflection
 
