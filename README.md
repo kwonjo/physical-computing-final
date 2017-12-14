@@ -22,24 +22,16 @@
 #### Hardware Wiring Diagram
 
 ![Wiring Diagram](images/finalwiredredboard_pikachu.png)
-// Servo motor(Sun comes up)
-Servo myservo;  // create servo object to control a servo
-int potpin = A4;  // A4 analog pin used to connect the potentiometer
-int val;    // variable to read the value from the analog pin
-int mappedVal; // mapped value for servo
 
-// InfraIR(Sun to Apple)
-int sensorPin = A0; //Anologue
-SharpIR SharpIR(ir, model);
-float reading;
-int dist_cm;
+Description
+1. Potentiometer connected to A4 analog pin
+2. Infrared Sensor conneted to A0
+3. Yellow LED is connected to D1
+4 Red LEDs are connected to D4, D5, D6
+5. Button pin is connected to D7
+6. Button pin2 is connected to D0
 
-// ButtonLED(Pikachu eats Apple)
-int buttonPin1 = D7;
 
-// ButtonLED(Thunder bolt)
-int ledPin = D1;
-int buttonPin2 = D0;//pepper button
 
 // HTML(On Going)
 int page = 1; //starts with 1.html
@@ -174,6 +166,7 @@ void loop()
 [my_code.ino](code/my_code.ino)
 
 4. Javascript and p5js codes
+In order to show Pikachu's data is given to many entities, I used p5js to visualize Pikachu's love for apples.
 ```javascript
 <html>
 	<head>
@@ -230,7 +223,7 @@ void loop()
 </html>
 ```
 
-'''p5js
+'''javascript
 <html>
 	<head>
 		<title>Step 5</title>
@@ -258,8 +251,11 @@ void loop()
 
 < Explain the device's form, the aesthetic choices made and how they relate to the concept/function the device is intended to engage >
 
-< include photos of your device >
+![pikachu](images/pika4.jpg)
+![stage](images/pika5.jpg)
 [Pikachu Model] https://www.thingiverse.com/thing:670032
+![tree](images/tree.jpg)
+The tree was designed in Fusion and modgepodged with brown paper. Cotton was added to hide the red LED lights and to look like a tree.
 
 ### Evaluation / Reflection
 
