@@ -2,11 +2,11 @@
 
 *Name: Jo (Joungwon) Kwon
 
-*Date: December 13, 2017
+*Date: December 14, 2017
 
 ## Project:  Data Go Energy Go
 
-This project's objective is to highlight Pokemon Go's data probel
+This project's objective is to highlight Pokemon Go's data privacy issue. In order to help people effectively learn the information, a story of Pikachu’s ecosystem is included. Pikachu is a crucial part of Pokemon Go and it is used as an object to criticize Pokemon Go’s privacy policies. 
 
 ### Detailed Project Description
 
@@ -142,37 +142,10 @@ void loop()
 ```
 [my_code.ino](code/my_code.ino)
 
-4. Javascript and p5js codes
-In order to show Pikachu's data is given to many entities, I used p5js to visualize Pikachu's love for apples.
-
+4. Javascript and p5.js codes
 ```javascript
-<html>
-	<head>
-	    <meta charset="UTF-8">
-		<title>Final Project 2017</title>
-		<script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous">
-        </script>
-        <style>
-        body {
-            background-color: white;
-        }
-        </style>
-	</head>
-	<body>
-	<font face="Verdana" color="666666" size="14">
-		Data Go Energy Go<br>
-        </font>
-		<font face="Verdana" color="000000">
-		<h2>
-        Where Does Data and Energy go?<br>
-        The goal to this project is to find where our data from Pokemon Go goes and how energy flows in the ecosystem as Pikachu spends a day.
-		<br>
-        <br>
-		<a href="1.html" target="bottom">START THE DAY OVER</a></h2></font>
-		<iframe width="100%" height= "95%" src="1.html" name="bottom"></iframe> 
+	<a href="1.html" target="bottom">START THE DAY OVER</a></h2></font>
+	<iframe width="100%" height= "95%" src="1.html" name="bottom"></iframe> 
 	   <script type="text/javascript">
         var deviceID    = "430053001151353338363333";
         var accessToken = "9fe41d708a5453d5b7edbd576398dd6afaf9ef4f";
@@ -226,16 +199,24 @@ In order to show Pikachu's data is given to many entities, I used p5js to visual
 ```
 
 ### Design / Form
-
-< Explain the device's form, the aesthetic choices made and how they relate to the concept/function the device is intended to engage >
-
+1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed.
+2. The green button with the pepper on the top was printed as an oval shape and painted as green to look like a pepper for the part of the story for "Energy Go."
 ![pikachu](images/pika4.jpg)
 ![stage](images/pika5.jpg)
-[Pikachu Model] https://www.thingiverse.com/thing:670032
+Source: [Pikachu Model] https://www.thingiverse.com/thing:670032
 
+3. The tree was designed in Fusion and modgepodged with brown paper. Cotton was added to hide the red LED lights and to look like a tree.
 ![tree](images/treemodel.png)
 ![tree](images/tree.jpg)
-The tree was designed in Fusion and modgepodged with brown paper. Cotton was added to hide the red LED lights and to look like a tree.
+
+4. The descriptions for the story was necessary so the text is in a large font to be visible. The story required a user to engage with Pikachu's activities in his ecosystem so instructions were given on the screen. The background color is gradually changed from light blue to darker blue to show the chronological change in the story. 
+In order to show Pikachu's data was given to many entities, I used p5.js to visualize Pikachu's love for apples.
+![final index](images/final_index.gif)
+![final2](images/final2.gif)
+![final3](images/final3.gif)
+![final4](images/final4.gif)
+![final5](images/final5.gif)
+![final6](images/final6.gif)
 
 ### Evaluation / Reflection
 
