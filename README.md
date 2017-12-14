@@ -178,7 +178,7 @@ void loop()
 ```
 [my_code.ino](code/my_code.ino)
 
-4. Javascript and p5.js codes
+4. Javascript
 ```javascript
 	<a href="1.html" target="bottom">START THE DAY OVER</a></h2></font>
 	<iframe width="100%" height= "95%" src="1.html" name="bottom"></iframe> 
@@ -207,13 +207,41 @@ void loop()
         setInterval(check4pageTurn, 500);
 ```
 
+5.rain_sketch2.js (for pikachu images to rain)
 ```javascript
-	<head>
-		<title>Step 5</title>
-		<script type="text/javascript" src="./p5.js"></script>
-		<script type="text/javascript" src="./rain_sketch2.js"></script>
-		<script type="text/javascript" src="./rain.js"></script>
-	</head>
+var img;
+var drops = [];
+
+//total number of drops we want to use
+var totalDrops = 0;
+
+function setup() {
+  var myCanvas = createCanvas(windowWidth, 400);
+  myCanvas.parent('sketch');
+  //tint(255, 10); //making it transparent
+  img = loadImage('images/ApplePika_crop.PNG')
+}
+
+function draw() {
+  var c = color('#03A9F4')
+  background(c);
+
+  // Initialize one drop
+  drops[totalDrops] = new Drop();
+  // Increment totalDrops
+  totalDrops++ ;
+  // If we hit the end of the array
+  if (totalDrops >= 300) {
+    totalDrops = 0; //Start over
+  }
+
+  // Move and display drops
+  for (var i = 0; i < totalDrops; i++ ) { 
+    drops[i].move();
+    drops[i].display();
+    drops[i].wind();
+  }
+}
 ```
 
 ### Design / Form
