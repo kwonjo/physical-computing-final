@@ -14,20 +14,39 @@ This project's objective is to highlight Pokemon Go's data privacy issue. In ord
 
 ### Technical Description
 
-< Explain the "how" of your project.  What are the hardware components?  What are the software components?  How do they interact with each other? >
+*What are the hardware components?
+-Sparkfun 
+1. Potentiometer
+2. Infrared Sensor
+3. 1 yellow LED, 3 red LEDs
+4. 2 buttons
+5. Sevor motor
+-3D Prints
+1. Pikachu
+2. Green Pepper
+3. Tree
 
-< You can also explain the development process here >
+*What are the software components? 
+1. Particle
+2. Javascript
+3. HTML
 
+*How do they interact with each other?
+1. When the potentiometer is used, the servor motor moves and the page is changed.
+2. When sevor motor moves and makes the sun move, the sun is detected by the infrared sensor which lights up the 3 red LEDs. The page also changes with the change in the servor motor. 
+3. When the red apple button is pressed, the page is changed. 
+4. When the green pepper button is used, the yellow LED lights up and the page is changed. 
+5. When the potentiometer is used to get the sun down, the page is changed with many images of Pikachy eating apples. 
 
 #### Hardware Wiring Diagram
 
 ![Wiring Diagram](images/finalwiredredboard_pikachu.png)
 
-Description
+*Description
 1. Potentiometer connected to A4 analog pin
 2. Infrared Sensor conneted to A0
 3. Yellow LED is connected to D1
-4 Red LEDs are connected to D4, D5, D6
+4  3 Red LEDs are connected to D4, D5, D6
 5. Button pin is connected to D7
 6. Button pin2 is connected to D0
 7. Servor motor connected to D2
@@ -199,7 +218,7 @@ void loop()
 ```
 
 ### Design / Form
-1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed.
+1. Pikachu model was downloaded and modified. It was challenging to create a hole because Fusion because 3D Max did not allow boolean substract. Ultimately, I had to use Meshmixer to create the hole. Although I inputted the precise measurements for the hole, the 3D print result was different. After printing several Pikachu models with the change in measurements, the perfect size of the hole was printed. The button on Pikachu was chosen red and painted with a green leaf so that it looks like an apple. 
 2. The green button with the pepper on the top was printed as an oval shape and painted as green to look like a pepper for the part of the story for "Energy Go."
 
 ![pikachu](images/pika4.jpg)
@@ -224,5 +243,7 @@ In order to show Pikachu's data was given to many entities, I used p5.js to visu
 ### Evaluation / Reflection
 
 The goals for the initial idea of this project to enable people to acknowlegdge the fact about Pokemon Go's use of personal data was accomplished. Although instructions are given by Pikachu with the screen, the intuitive use for the potentiometer or buttons may not be clear. People wanted to turn the potentiometer or push the button not in order. The sequential use of these objects should be more intuitive. 
+
 I learned how to modify and create 3D models. Printing the exact 3D model was a challenge. I would like to learn more about creating precise measurements. I also learned how to use javascript and html. I did not know how to create a website with javascript and html prior to this class. Learning css will be my future goal. In the part for the particle, I learned how to use the Sharp Infrared sensor and how to create function to change the pages of the website after an input is made by a user. 
-If I had more time for the project, I would like to use a larger screen. With a larger screen, text would be easier to read. The idea of this stage with two stories intertwined came from science museums. Science museums have multiple larger screens that allow people to interact and learn new information. Having a larger scale with a longer sequence would be my goal for the future. In addition, spending more time to sharpen the physical appearance of the stage and the interface of the text would make the project better.
+
+If I had more time for the project, I would like to use a larger screen. The idea of this stage with two stories intertwined came from science museums. Science museums have multiple larger screens that allow people to interact and learn new information. Having a larger scale with a longer sequence would be my goal for the future. With a larger screen, text would be easier to read. In addition, spending more time to sharpen the physical appearance of the stage and the interface of the text would make the project better.
