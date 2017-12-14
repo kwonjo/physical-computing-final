@@ -174,7 +174,9 @@ void loop()
 [my_code.ino](code/my_code.ino)
 
 4. Javascript and p5js codes
-
+```javascript
+<script>
+```
 
 ### Design / Form
 
